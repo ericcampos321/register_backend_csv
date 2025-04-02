@@ -26,7 +26,7 @@ Este projeto consiste em uma API desenvolvida em **FastAPI** que realiza uma bus
 ### 1. Clonar o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/ericcampos321/register_backend_csv.git
 cd seu-repositorio
 
 
