@@ -52,7 +52,6 @@ PORT=8000
 CSV_FILE_PATH=operadoras.csv
 ```
 
-## Instalação
 
 ### Criação do ambiente virtual
 
@@ -163,4 +162,3 @@ Esse projeto foi estruturado com foco em:
 ## Autor
 
 Desenvolvido por **Eric Campos** – Projeto de Nivelamento Técnico
-
