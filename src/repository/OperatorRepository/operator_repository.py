@@ -8,12 +8,12 @@ class OperatorRepository:
         try:
             operators = read_csv_file("operadoras.csv")
 
-            # Filtra operadoras que contenham o termo
+            # Filter operadors
             filtered = [
                 op for op in operators if search.lower() in op["Nome_Fantasia"].lower()
             ]
 
-            # Ordena para quem começa com o termo aparecer primeiro
+            # Order first
             filtered.sort(
                 key=lambda op: (
                     not op["Nome_Fantasia"].lower().startswith(search.lower()),
